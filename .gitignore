@@ -15,8 +15,8 @@
 # Ignore build results, binaries, and libs
 *.dll
 *.exe
-!src/devtools/bin/ShaderCompile2.exe
-!src/devtools/bin/vpc.exe
+!src/devtools/bin/*.dll
+!src/devtools/bin/*.exe
 *.pdb
 *.ilk
 *.lib

@@ -39,19 +39,17 @@
 
 # How to compile
 1. Clone or download repository as archive
-2. [**Visual Studio 2022** required] Run `creategameprojects` or `createallprojects`
+2. [**Visual Studio 2022** required] Run `createallprojects`
 3. Open created .sln file
 4. Compile solution in Debug/Release configuration
-5. Run mod using Steam/Source SDK 2013 Singleplayer (beta set to `upcoming`)
+5. Run mod using executable `mod_hl2mp_win64.exe` in `game` folder (Source SDK 2013 Multiplayer is required)
 6. Use
 
 # Current issues
 Check **Issues** tab for more info!
 
 # Credits
-- **[source-sdk-2013-ce](https://github.com/Nbc66/source-sdk-2013-ce)** - repository is based on this project and forked off
-- **[RmlUI](https://github.com/mikke89/RmlUi)** - framework itself, compiled as dynamic library using CMake (temp solution, later I want to integrate RmlUI as submodule and setup CMake here) + samples + wiki
-- **[SCell555's ShaderCompiler](https://github.com/SCell555/ShaderCompile)** - standalone shadercompile without dependencies on external tools (Perl, DxSDK)
+- **[RmlUI](https://github.com/mikke89/RmlUi)** - framework itself + samples + wiki
 - **[stb_image.h, stb_image_resize2.h](https://github.com/nothings/stb)** - used for image decoding and resizing
 
 Check `thirdpartylegalnotices.txt` for licenses.

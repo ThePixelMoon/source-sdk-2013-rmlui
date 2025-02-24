@@ -20,7 +20,7 @@ jobs:
         python-version: '3.13'
 
     - name: Create all projects
-      run: src/devtools/bin/vpc.exe /hl2mp /define:SOURCESDK +game /mksln game.sln /f
+      run: .\src\devtools\bin\vpc.exe /hl2mp /define:SOURCESDK +game /mksln game.sln /f
 
     - name: Setup MSBuild Environment
       uses: microsoft/setup-msbuild@v1

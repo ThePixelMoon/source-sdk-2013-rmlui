@@ -1,4 +1,4 @@
-name: Win64
+name: [Release] Win64 - Everything
 
 on:
   push:

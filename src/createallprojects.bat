@@ -1,1 +1,1 @@
-devtools\bin\vpc.exe /hl2mp /define:SOURCESDK +game /mksln game.sln /f
+devtools\bin\vpc.exe /hl2mp /define:SOURCESDK +everything /mksln game.sln /f

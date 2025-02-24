@@ -32,4 +32,4 @@ jobs:
 
     - name: Build Solution
       run: |
-        msbuild game.sln /p:Configuration=Release /p:Platform=x64 /p:PlatformToolset=v143
+        msbuild game.sln /p:Configuration=Release /p:Platform=win64 /p:PlatformToolset=v143

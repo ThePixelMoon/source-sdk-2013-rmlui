@@ -1,4 +1,4 @@
-name: [Release] Win64 - Everything
+name: "[Release] Win64 - Everything"
 
 on:
   push:

@@ -66,12 +66,27 @@ coverage*.json
 coverage*.xml
 coverage*.info
 
-# Ignore output directories
-[Dd]ebug/
-[Dd]ebug_*/
-[Rr]elease/
-!src/lib/common/*/*/*/
-[Rr]elease_*/
+# Ignore output folders only in those folders
+src/game/*/Debug*/
+src/game/*/Release*/
+src/launcher_main/Release*/
+src/launcher_main/Debug*/
+src/materialsystem/stdshaders/Release*/
+src/materialsystem/stdshaders/Debug*/
+src/mathlib/Release*/
+src/mathlib/Debug*/
+src/raytrace/Release*/
+src/raytrace/Debug*/
+src/tier0/Release*/
+src/tier1/Debug*/
+src/tier1/Release*/
+src/tier2/Release*/
+src/tier2/Debug*/
+src/tier3/Release*/
+src/tier3/Debug*/
+src/vgui2/vgui_controls/Debug*/
+src/vgui2/vgui_controls/Release*/
+src/vgui2/vgui_controls/Debug*/
 
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/

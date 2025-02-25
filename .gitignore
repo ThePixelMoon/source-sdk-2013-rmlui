@@ -84,9 +84,12 @@ src/tier2/Release*/
 src/tier2/Debug*/
 src/tier3/Release*/
 src/tier3/Debug*/
+src/fgdlib/Release*/
+src/fgdlib/Debug*/
 src/vgui2/vgui_controls/Debug*/
 src/vgui2/vgui_controls/Release*/
-src/vgui2/vgui_controls/Debug*/
+src/utils/*/Release*/
+src/utils/*/Debug*/
 
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/

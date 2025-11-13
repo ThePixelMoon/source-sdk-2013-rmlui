@@ -376,11 +376,3 @@ void RmlUIManager::LoadFontFaces()
 RmlUIManager::~RmlUIManager() {
 	Shutdown();
 }
-
-void Cmd_RmlUiDebugger(const CCommand& args)
-{
-	Rml::Debugger::SetVisible(!Rml::Debugger::IsVisible());
-	RmlUIManager::GetInstance()->SetInputEnabled(!Rml::Debugger::IsVisible());
-}
-
-ConCommand rmlui_debugger("rmlui_debugger", Cmd_RmlUiDebugger, "Shows debug plugin (inspector) for RmlUi", FCVAR_NONE);

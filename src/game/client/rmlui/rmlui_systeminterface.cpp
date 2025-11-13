@@ -28,10 +28,6 @@
 /// Log messages from RmlUi
 bool RmlUiSystemInterface::LogMessage(Rml::Log::Type type, const Rml::String& message)
 {
-    // @ThePixelMoon: why does it crash
-    if ( message.empty() )
-        return false;
-
 	switch (type) {
         case Rml::Log::Type::LT_WARNING:
             Warning("[Rml Ui Warning] %s\n", message.c_str());

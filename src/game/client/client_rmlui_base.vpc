@@ -10,7 +10,7 @@ $Configuration
 	{
 		$AdditionalIncludeDirectories	"$BASE;./rmlui;$SRCDIR/thirdparty/rmlui/include"
 		$AdditionalIncludeDirectories	"$BASE;$SRCDIR/thirdparty/stb"
-		$PreprocessorDefinitions		"$BASE;RMLUI"
+		$PreprocessorDefinitions		"$BASE;RMLUI;RMLUI_STATIC_LIB"
 	}
 }
 
@@ -37,5 +37,6 @@ $Project
 	{
 		$Lib rmlui
 		$Lib rmlui_debugger
+		$Lib freetype
 	}
 }

@@ -17,8 +17,25 @@
 #define STB_IMAGE_RESIZE_IMPLEMENTATION
 #include <stb_image_resize2.h>
 
+#include <string>
+#include <vector>
+#include <sstream>
+
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
+
+namespace Rml {
+    namespace StringUtilities {
+        void ExpandString(std::vector<std::string>& output, const std::string& input, char delimiter)
+        {
+            std::stringstream ss(input);
+            std::string item;
+            while (std::getline(ss, item, delimiter)) {
+                output.push_back(item);
+            }
+        }
+    }
+}
 
 /// Render wireframe instead of geometry
 ConVar rmlui_wireframe("rmlui_wireframe", "0", FCVAR_CHEAT, "Render wireframe instead of geometry");

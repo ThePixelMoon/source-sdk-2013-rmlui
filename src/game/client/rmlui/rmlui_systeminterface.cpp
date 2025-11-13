@@ -34,7 +34,7 @@ bool RmlUiSystemInterface::LogMessage(Rml::Log::Type type, const Rml::String& me
 #ifdef WIN32
             MessageBox(NULL, message.c_str(), "RmlUi Warning", MB_OK | MB_ICONWARNING);
 #else
-#error Add support for message boxes on other non windows systems!
+//#error Add support for message boxes on other non windows systems!
 #endif
             break;
 		case Rml::Log::Type::LT_ERROR:
@@ -42,7 +42,7 @@ bool RmlUiSystemInterface::LogMessage(Rml::Log::Type type, const Rml::String& me
 #ifdef WIN32
             MessageBox(NULL, message.c_str(), "RmlUi Error", MB_OK | MB_ICONERROR);
 #else
-#error Add support for message boxes on other non windows systems!
+//#error Add support for message boxes on other non windows systems!
 #endif
             __debugbreak();
 			break;
